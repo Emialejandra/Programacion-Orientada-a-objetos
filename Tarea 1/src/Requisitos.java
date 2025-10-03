@@ -13,7 +13,6 @@ public class Requisitos {
         }else if(edad>=18){
             System.out.println("Cumple");
         }
-        System.out.println("Edad:"+edad);
 
         System.out.println("Ingrese su estatura:");
         altura=ct.nextDouble();
@@ -22,7 +21,12 @@ public class Requisitos {
         } else if (altura >=1.60) {
             System.out.println("Cumple");
         }
-        System.out.println("Altura:"+altura);
+//validacion
+        if(edad>=18 && altura>=1.6){
+            System.out.println("Cumple");
+        }else{
+            System.out.println("No cumple");
+        }
 
 
     }

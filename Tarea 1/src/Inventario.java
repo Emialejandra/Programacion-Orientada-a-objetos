@@ -27,11 +27,11 @@ public class Inventario {
                 i--;
                 continue;
             }
-            double subtotal=cantidad*precio;
+            double subtotal=cantidad*precio;    //calculo de subtotal
             System.out.println("Subtotal: "+nombre+" -> $"+subtotal);
 
             Cant_Total+=subtotal;
-        }
+        } 
         //mensaje final
         System.out.println("  \nTotal de la compra: "+Cant_Total);
         sc.close();
