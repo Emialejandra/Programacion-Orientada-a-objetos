@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Persona {
-    int cedula;
+    int cedula;   //para que el atributo sea publico aumentamos el "public" antes del atributo
     String nombre;
     int edad;
     String correo;
@@ -20,8 +20,6 @@ public class Persona {
     void Imprimir(){ //
         System.out.println("Bienvenido "+nombre+" "+cedula+" "+edad+" "+correo);
     }
-
-
     public static void main(String[] args) { //en el main se da los valores a los atributos
         Persona objeto1=new Persona(1204693806,"Fernando", 25,"ff@gail.com");
         objeto1.Imprimir();

@@ -20,5 +20,4 @@ public class MAIN {
         cuenta2.depositar(200.32);
         cuenta2.mostrarInformacion();
     }
-
 }

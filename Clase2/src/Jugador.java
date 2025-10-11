@@ -1,12 +1,12 @@
 import java.util.Scanner;
-public class Ejercicio1 {
+public class Jugador {
     //atributos
     String nombre;
     String posicion;
     int edad;
     int N_Camiseta;
 
-    public Ejercicio1( String posicion,int N_Camiseta) {  //metodo constructor
+    public Jugador(String posicion, int N_Camiseta) {  //metodo constructor
         this.posicion = posicion;
         this.N_Camiseta=N_Camiseta;
     }
@@ -31,7 +31,7 @@ public class Ejercicio1 {
         System.out.println("Ingrese su edad: ");
         edad =jugador.nextInt();
         jugador.nextLine();
-        Ejercicio1 jugador1=new Ejercicio1("Medio campista",20);
+        Jugador jugador1=new Jugador("Medio campista",20);
         System.out.println("Nombre: "+nombre);
         System.out.println("Edad: "+edad);
         jugador1.Registro();
@@ -42,7 +42,7 @@ public class Ejercicio1 {
         System.out.println("Ingrese su edad: ");
         edad =jugador.nextInt();
         jugador.nextLine();
-        Ejercicio1 jugador2=new Ejercicio1("Central",12);
+        Jugador jugador2=new Jugador("Central",12);
         System.out.println("Nombre: "+nombre);
         System.out.println("Edad: "+edad);
         jugador2.Registro();

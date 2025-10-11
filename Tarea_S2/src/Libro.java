@@ -32,5 +32,4 @@ public class Libro {
         libro1.mostrarInformacion();
         libro2.mostrarInformacion();
     }
-
 }

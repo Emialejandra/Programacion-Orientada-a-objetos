@@ -39,5 +39,4 @@ public class CuentaBancaria {
         }
         System.out.println("____________________________");
     }
-
 }
