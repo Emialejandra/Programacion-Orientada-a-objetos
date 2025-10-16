@@ -8,7 +8,7 @@ public class Ejecucion {
         Producto prod1 = new Producto();
         prod1.mostraInfo();
         prod1.calcularTotal();
-        System.out.println(+prod1.);
+        System.out.println();
 
         System.out.println("___________________");
 //MC usando MC con parametros
