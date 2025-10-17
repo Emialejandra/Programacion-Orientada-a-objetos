@@ -25,6 +25,7 @@ public class Ejecucion {
 
         System.out.println("Ingrese la cantidad en stock:");
         int stock = pd.nextInt();
+
 //creamos el objeto y llamamos al MP
         Producto prod2=new Producto(nombre, codigo,precio, stock);
         prod2.mostraInfo();
