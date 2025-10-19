@@ -4,7 +4,5 @@ public class main {
         om.operacionMatematica();
         OperacionesMatematicas om2=new OperacionesMatematicas(6,9,20);
         om2.operacionMatematica();
-
-
     }
 }
