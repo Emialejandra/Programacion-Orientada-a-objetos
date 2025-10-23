@@ -4,7 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Clase 3/Clase 3.iml" filepath="$PROJECT_DIR$/Clase 3/Clase 3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Clase2/Clase2.iml" filepath="$PROJECT_DIR$/Clase2/Clase2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tarea_Grupal_POO/InvestigacionGrupal/InvestigacionGrupal.iml" filepath="$PROJECT_DIR$/Tarea_Grupal_POO/InvestigacionGrupal/InvestigacionGrupal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Repaso/Repaso.iml" filepath="$PROJECT_DIR$/Repaso/Repaso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TallerS3/TallerS3.iml" filepath="$PROJECT_DIR$/TallerS3/TallerS3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tarea 1/Tarea 1.iml" filepath="$PROJECT_DIR$/Tarea 1/Tarea 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TareaRepaso/TareaRepaso.iml" filepath="$PROJECT_DIR$/TareaRepaso/TareaRepaso.iml" />
       <module fileurl="file://$PROJECT_DIR$/TareaS1-2/TareaS1-2.iml" filepath="$PROJECT_DIR$/TareaS1-2/TareaS1-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/TareaS3/TareaS3.iml" filepath="$PROJECT_DIR$/TareaS3/TareaS3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tarea_S2/Tarea_S2.iml" filepath="$PROJECT_DIR$/Tarea_S2/Tarea_S2.iml" />
