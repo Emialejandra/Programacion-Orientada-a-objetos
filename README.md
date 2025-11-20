@@ -128,7 +128,57 @@ Sistema Olimpiadas
 <img width="979" height="796" alt="image" src="https://github.com/user-attachments/assets/66b55a06-9a20-47d9-babc-fa7d6755d73c" />
 <img width="983" height="818" alt="image" src="https://github.com/user-attachments/assets/5f2d15a1-7d91-4d21-a4bf-b71a4a228983" />
 
+-----------------------------------------------------------------------------------
+TAREA S8
+ACTIVIDAD – Sistema de Registro de Juegos 
+Indicaciones Generales 
+Desarrolle un programa en Java que permita registrar información sobre juegos de Mario Bros y juegos de Carreras de Vehículos. 
+El objetivo es aplicar herencia, polimorfismo, excepciones personalizadas y manejo de listas (ArrayList) mediante un menú interactivo. 
+#clase juego
+<img width="952" height="602" alt="image" src="https://github.com/user-attachments/assets/ed5a8645-5fd1-40d8-8070-6250442ccc3d" />
+<img width="991" height="380" alt="image" src="https://github.com/user-attachments/assets/95e80d5f-b96e-4375-a9fe-135ca6942368" />
+#clase MarioBross
+<img width="924" height="653" alt="image" src="https://github.com/user-attachments/assets/510ad96d-b63b-4964-a5cc-0832e51c05d7" />
+<img width="731" height="274" alt="image" src="https://github.com/user-attachments/assets/18b8fa3c-c0b3-4216-8f4f-b06b40dcb1b1" />
+#Clase CarreraVehiculos
+<img width="916" height="740" alt="image" src="https://github.com/user-attachments/assets/a9561216-cafb-476c-974f-3950c4524536" />
+<img width="656" height="273" alt="image" src="https://github.com/user-attachments/assets/e80be106-5482-40ec-961b-df2873736200" />
+#DatosInvalidos
+<img width="609" height="216" alt="image" src="https://github.com/user-attachments/assets/492a2bb8-1519-4bbd-9a06-5df72a5965a9" />
+#Main
+<img width="814" height="826" alt="image" src="https://github.com/user-attachments/assets/f2eaf447-63c8-4f7a-9eb2-a6a56616be40" />
+<img width="849" height="743" alt="image" src="https://github.com/user-attachments/assets/52429a94-1524-4344-9022-32844e0b7551" />
+<img width="938" height="777" alt="image" src="https://github.com/user-attachments/assets/35ee8a69-201a-4626-ada1-842ee1fd8fff" />
+<img width="734" height="818" alt="image" src="https://github.com/user-attachments/assets/f52185c8-87dc-4a9e-9107-0b89abdd3c1f" />
+<img width="934" height="776" alt="image" src="https://github.com/user-attachments/assets/8f8cbd5e-eab0-48e0-b97b-0862baea059e" />
+NOTA: las capturas de la ejecucion esta en el pdf 
 
+ENUNCIADO: 
+Desarrollar un programa en Java que simule el registro y funcionamiento de diferentes dispositivos electrónicos. 
+Debe aplicarse: encapsulamiento, herencia, polimorfismo, sobrescritura, manejo de listas y excepciones personalizadas. 
+Requerimientos del programa 
+1.	Crear una clase padre llamada Dispositivo con atributos privados (marca, modelo, precio). 
+2.	Implementar getters y setters para aplicar encapsulamiento, validando datos incorrectos. 
+3.	Crear dos clases hijas: 
+O Laptop 
+ 	o Telefono 
+Ambas deben heredar de Dispositivo. 
+4.	La clase padre debe incluir un método mostrarInfo() que luego será sobrescrito en cada clase hija para demostrar polimorfismo. 
+5.	Crear una excepción personalizada llamada DatoInvalidoException, la cual debe lanzarse cuando se ingrese un precio negativo o una marca vacía. 
+6.	En el método main, crear un ArrayList de tipo Dispositivo, registrar objetos de tipo Laptop y Telefono, y mostrar la información usando polimorfismo. 
+7.	Capturar excepciones con try–catch cuando se creen dispositivos con datos inválido 
+#DatoInvalido
+<img width="601" height="139" alt="image" src="https://github.com/user-attachments/assets/8cbea86e-c9b8-406c-8434-e2e2c414dc88" />
+#Clase Dispositivo
+<img width="923" height="802" alt="image" src="https://github.com/user-attachments/assets/6f54e798-13e3-49a6-8496-15dd0b103e03" />
+<img width="815" height="446" alt="image" src="https://github.com/user-attachments/assets/bf1406b4-ac9b-44ff-bb10-6d3f60665d57" />
+#Clase Laptop
+<img width="1055" height="467" alt="image" src="https://github.com/user-attachments/assets/61544104-1cc1-464c-963e-05376b4ce02d" />
+#Clase Telefono
+<img width="886" height="550" alt="image" src="https://github.com/user-attachments/assets/11dc2bff-4ac5-401e-bd18-7191c0979504" />
+#clase Main
+<img width="1190" height="688" alt="image" src="https://github.com/user-attachments/assets/0b92e162-e22d-4aa2-a6fa-03002fa14641" />
+NOTA: las capturas de la ejecucion estan en el pdf 
 
 
 
