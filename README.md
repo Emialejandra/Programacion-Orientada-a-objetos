@@ -179,10 +179,63 @@ Ambas deben heredar de Dispositivo.
 #clase Main
 <img width="1190" height="688" alt="image" src="https://github.com/user-attachments/assets/0b92e162-e22d-4aa2-a6fa-03002fa14641" />
 NOTA: las capturas de la ejecucion estan en el pdf 
+--------------------------------------------------------------------------------
+4.	Ejercicio propuesto: Sistema — Elección de la Reina de Quito
+Descripción general:
+Desarrollar un programa Java en consola para gestionar candidatas a la elección de la Reina de Quito. El sistema debe permitir registrar candidatas, simular votaciones, mostrar resultados y usar herencia, polimorfismo, excepciones personalizadas y ArrayList.
+Requerimientos funcionales
+1.	Clase abstracta Candidata
+o	Atributos: int id, String nombre, int edad, String distrito, double puntajeJurado
+o	Método abstracto public abstract void mostrarDetalles();
+2.	Clases hijas (dos ejemplos; puedes crear otras variantes):
+o	CandidataEstudiante (atributos adicionales: String universidad, String carrera)
+o	CandidataProfesional (atributos adicionales: String profesion, int añosExperiencia)
+o	Ambas sobrescriben mostrarDetalles() (polimorfismo).
+3.	Excepción personalizada DatoInvalidoException
+o	Lanzarla si nombre vacío, edad <= 0 o puntajes negativos, etc.
+4.	Gestión con ArrayList<Candidata>
+o	Registrar candidatas, eliminar, editar, listar.
+o	Búsqueda por nombre o id.
+o	Filtrado por tipo (Estudiante / Profesional / otros).
+5.	Simulación de votación
+o	Implementar ArrayList<Voto> o un Map<Integer, Integer> para contar votos por idCandidata.
+o	Menu para “votar” (simulación) y opción para importar votos de muestra.
+o	Mostrar ganador(es). Manejar empates (desempate por puntajeJurado).
+6.	Validaciones
+o	Datos obligatorios no vacíos.
+o	Edad positiva (>= 16, por ejemplo).
+o	Puntaje jurado en rango 0–100.
+o	Atrapar excepciones y mostrar mensajes claros.
+7.	Interfaz de consola (menú)
+o	Registrar candidata.
+o	Listar todas.
+o	Buscar por nombre/id.
+o	Filtrar por tipo/distrito.
+o	Simular voto / registrar voto manual.
+o	Mostrar resultados y ganador.
+o	Salir.
+8.	Pruebas
+o	Ingresar al menos 5 candidatas (mezcla de tipos) y simular votos para demostrar resultados y manejo de errores.
+<img width="1089" height="769" alt="image" src="https://github.com/user-attachments/assets/77bb6164-9a38-45b5-ba23-eb5223aeb722" />
+<img width="997" height="774" alt="image" src="https://github.com/user-attachments/assets/1a7effeb-0de2-4f64-902f-2e41c7a3bef9" />
+<img width="915" height="348" alt="image" src="https://github.com/user-attachments/assets/7dbd2430-1395-408e-9df8-5300145b7b79" />
+<img width="1351" height="855" alt="image" src="https://github.com/user-attachments/assets/a4ab5e61-e01a-4cb7-8cd4-53e5c99d8822" />
+<img width="613" height="365" alt="image" src="https://github.com/user-attachments/assets/fd67130f-5f31-4fc4-9647-755566bc2a6f" />
+<img width="1412" height="798" alt="image" src="https://github.com/user-attachments/assets/368cc019-3611-4737-8bb2-156d99a9dc25" />
+<img width="703" height="325" alt="image" src="https://github.com/user-attachments/assets/393be9ac-2873-4f22-8b60-3ca47afeeb34" />
+<img width="775" height="220" alt="image" src="https://github.com/user-attachments/assets/06f6d9cb-e350-4c99-b479-7edfd8d1dc68" />
+<img width="716" height="856" alt="image" src="https://github.com/user-attachments/assets/be3f7d1e-0286-4480-8715-1f7b5d4b9542" />
+<img width="815" height="638" alt="image" src="https://github.com/user-attachments/assets/e503bc60-f186-4a9d-a160-42b0441f6a1e" />
+<img width="708" height="742" alt="image" src="https://github.com/user-attachments/assets/d85231f5-9200-4576-8310-59d56531fe66" />
+<img width="809" height="725" alt="image" src="https://github.com/user-attachments/assets/081dd045-5694-4f56-b1f9-9967cc549401" />
+<img width="776" height="728" alt="image" src="https://github.com/user-attachments/assets/4fceacce-3e56-4e04-8eef-5680da564007" />
+<img width="835" height="770" alt="image" src="https://github.com/user-attachments/assets/9f033d12-92a3-41fe-809d-f088c56d2d7b" />
+<img width="785" height="759" alt="image" src="https://github.com/user-attachments/assets/35433bef-a9dd-4137-bbaa-42e601cad16c" />
+<img width="719" height="174" alt="image" src="https://github.com/user-attachments/assets/1dfe771e-bb5f-4348-9d8e-5fb9b27fd7fa" />
+<img width="712" height="765" alt="image" src="https://github.com/user-attachments/assets/f0540c14-2d3a-495c-adf4-241d3ed8e8b5" />
+<img width="598" height="775" alt="image" src="https://github.com/user-attachments/assets/0960628e-e73e-46cc-a90c-7221c8e08488" />
+<img width="954" height="827" alt="image" src="https://github.com/user-attachments/assets/8029d7b5-1e56-4112-8435-1cd7009f44d8" />
 
-
-
-
-
+NOTA: las capturas de la ejecucion estan en el pdf 
 
 
