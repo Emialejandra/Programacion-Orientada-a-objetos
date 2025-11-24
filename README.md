@@ -238,4 +238,42 @@ o	Ingresar al menos 5 candidatas (mezcla de tipos) y simular votos para demostra
 
 NOTA: las capturas de la ejecucion estan en el pdf 
 
+----------------------------------------------------------------------
+EXAMEN PRACTICO 
+Tema:
+Sistema de Registro de Empleados con Herencia, Listas y Manejo de Excepciones.
+Objetivo General:
+Aplicar los conceptos fundamentales de la Programación Orientada a Objetos en Java mediante el diseño y desarrollo de un sistema que gestione empleados de una empresa, utilizando herencia, listas y manejo de excepciones.
+Instrucciones Generales:
+1. Cree un proyecto en Java denominado 'SistemaEmpleados'.
+2. Implemente las clases según se indica en el enunciado.
+3. Asegúrese de manejar adecuadamente las excepciones para entradas inválidas.
+4. Utilice una estructura de lista (ArrayList) para almacenar los empleados registrados.
+5. El sistema debe incluir un menú de opciones en consola.
+6. Al finalizar, guarde su código y entregue una breve conclusión sobre como aplico los principios POO en su código
+Enunciado del Ejercicio:
+La empresa 'TechESFOT' requiere un sistema que permita registrar empleados de diferentes tipos. Existen dos tiempos de empleados:
+•	a tiempo completo (con bono adicional)
+•	empleados a medio tiempo (con pago por horas). 
+De forma general todos los empleados tienen un código, nombre, apellido, cargo y sueldo base, pero cada tipo de empleado podría tener otros atributos (a análisis del estudiante).
+El sistema deberá:
+- Permitir el registro de empleados de ambos tipos (tiempo completo, medio tiempo).
+-Calcular el sueldo total de cada empleado.
+-Mostrar todos los empleados registrados.
+-Validar de todos los empleados registrados, cual es el empleado que gana más dinero.
+-Validar el promedio salarial de entre todos los empleados registrados.
+-Controlar errores cuando se ingresen valores negativos o listas vacías.
+<img width="1103" height="801" alt="image" src="https://github.com/user-attachments/assets/45bfe1c9-6bb2-4997-85cd-b07f222d21d4" />
+<img width="918" height="668" alt="image" src="https://github.com/user-attachments/assets/95644585-9b08-40dc-9c2f-2af5ba44b394" />
+<img width="771" height="255" alt="image" src="https://github.com/user-attachments/assets/2f681d95-5988-4316-a8b2-5ebbf7e5b7e8" />
+<img width="1498" height="720" alt="image" src="https://github.com/user-attachments/assets/c6fad814-9b27-442b-b1b4-170609d48e7b" />
+<img width="1017" height="767" alt="image" src="https://github.com/user-attachments/assets/2e402e17-8e11-4700-adeb-944b55a337cf" />
+<img width="848" height="145" alt="image" src="https://github.com/user-attachments/assets/f2f8bae7-94b8-4dbf-aaeb-1b7697026b42" />
+<img width="1300" height="843" alt="image" src="https://github.com/user-attachments/assets/d8e91e92-f2a3-4cf7-9db9-e57b5dbced0b" />
+<img width="847" height="511" alt="image" src="https://github.com/user-attachments/assets/038ec5a8-ebc6-4edf-b1a6-3e73af03669b" />
+<img width="686" height="198" alt="image" src="https://github.com/user-attachments/assets/9005fae4-acd5-485c-a8a9-5466fe9776d7" />
+<img width="930" height="655" alt="image" src="https://github.com/user-attachments/assets/361c7995-bff4-421f-8c47-3eddccf83ba7" />
+<img width="829" height="748" alt="image" src="https://github.com/user-attachments/assets/74b0e926-2726-4edf-84a2-a71c167f6f06" />
+<img width="743" height="611" alt="image" src="https://github.com/user-attachments/assets/330b9b98-f857-4fe4-b709-01bec3f1f7af" />
+<img width="886" height="620" alt="image" src="https://github.com/user-attachments/assets/1b5bce9c-092f-4fd8-9ba2-e12ed04accec" />
 
